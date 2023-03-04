@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    color : #2f3640;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color : #2f3640;
+
+}
+ul li{
+    list-style: none;
+}
+body{
+    width : 100%;
+    min-height : 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    padding : 45px 150px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+}
+.nav-bar .logo{
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.nav-bar .nav-items{
+    display: flex;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+.nav-bar li{
+    margin : 0 12px;
+}
+.main-content{
+    padding : 25px 150px;
+}
+.father{
+    margin : 80px 0;
+    display : flex;
+    justify-content: space-between;
+}
+.box1{
+    width : 60%;
+    /* border : 2px solid red; */
+}
+.box1 h1{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 500;
+}
+.box1 p{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin : 5px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+}
+.my-btn{
+    border : none;
+    outline : none;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding : 8px 25px;
+    border-radius: 5px;
+    background-color: #2f3640;
+    color : white;
+}
+.btn{
+    /* border : 2px solid red; */
+    display: flex;
+    width : 30%;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.box2{
+    width : 35%;
+    /* border : 2px solid red; */
+    /* padding : 75px; */
+    height : 270px;
+}
+.box2 img{
+    width : 100%;
+    height : 100%;
+    object-position: center;
+}
+.footer{
+    color : white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size  : 14px;
+    text-align: center;
+    padding : 22px 0;
+    margin-top : auto;
+    font-weight: 300;
+    background-color: #2f3640;
+    color : white;
+}
